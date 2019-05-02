@@ -1,0 +1,24 @@
+Name of the Experiment: ATM system specifications and report the various bugs 
+1) Insertion of ATM card with success. 
+2) Incorrect ATM Card Insertion – Leading to unsuccessful operation. 
+3) ATM Card of an invalid account – Leading to unsuccessful operation. 
+4) Successful feeding of ATM PIN Number. 
+5) Incorrect ATM PIN Number feeding 3 times - Leading to unsuccessful operation. 
+6) Selection of language of operation, with success. 
+7) Selection of Type of Bank Account with success. 
+8) Incorrect Bank Account type Selection in respect to the type of ATM Card inserted - Leading to unsuccessful operation. 
+9) Selection of withdrawal option with success. 
+10) Selection of Amount to be withdrawn with success. 
+11) Incorrect Currency denominations - Leading to unsuccessful operation. 
+12) Successful completion of withdrawal of money. 
+13) Amount to be withdrawn in excess of the available Balance - Leading to unsuccessful operation. 
+14) Shortage of Currency Notes in ATM - Leading to unsuccessful operation. 
+15) Amount to be withdrawn in excess of the daily withdrawal limit - Leading to unsuccessful operation. 
+16) ATM link to the Bank Server not available at the moment - Leading to unsuccessful operation. 
+17) Clicking of the Cancel button after inserting the ATM card - Leading to unsuccessful operation. 
+18) Clicking of the Cancel button after feeding the ATM PIN Number - Leading to unsuccessful operation. 
+19) Clicking of the Cancel button after selection of language of operation - Leading to unsuccessful operation. 
+20) Clicking of the Cancel button after selection of Type of Bank Account - Leading to unsuccessful operation. 
+21) Clicking of the Cancel button after selection of Amount of withdrawal - Leading to unsuccessful operation. 
+22) Clicking of the Cancel button after feeding the amount to be withdrawn - Leading to unsuccessful operation. 
+

@@ -1,0 +1,72 @@
+Name of the Experiment: Study of Any Testing Tool( Win Runner)  
+
+ Win Runner is a program that is responsible for the automated testing of software. Win Runner is a Mercury Interactive enterprise functional testing tool for Microsoft windows applications. 
+Importance of Automated Testing: 
+1. Reduced testing time 
+2. Consistent test procedures – ensure process repeatability and resource independence. 
+Eliminates errors of manual testing 
+3. Reduces QA cost – Upfront cost of automated testing is easily recovered over the lifetime of the product 
+4. Improved testing productivity – test suites can be run earlier and more often 
+5. Proof of adequate testing 
+6. for doing tedious work – test team members can focus on quality areas. 
+ Win Runner Uses: 
+1. With Win Runner sophisticated automated tests can be created and run on an 
+application. 
+2. A series of wizards will be provided to the user, and these wizards can create tests in an automated manner. 
+3. Another impressive aspect of Win Runner is the ability to record various interactions, and transform them into scripts. Win Runner is designed for testing graphical user interfaces. 
+4. When the user makes an interaction with the GUI, this interaction can be recorded. Recording the interactions allows determining various bugs that need to be fixed. 
+5. When the test is completed, Win Runner will provide with detailed information 
+Regarding the results. It will show the errors that were found, and it will also give 
+ Important information about them. The good news about these tests is that they can be reused many times. 
+6. Win Runner will test the computer program in a way that is very similar to normal user interactions. This is important, because it ensures a high level of accuracy and realism. Even if an engineer is not physically present, the Recover manager will troubleshoot any problems that may occur, and this will allow the tests to be completed without errors.  
+7. The Recover Manager is a powerful tool that can assist users with various scenarios. This is important, especially when important data needs to be recovered. 
+The goal of Win Runner is to make sure business processes are properly carried out. Win Runner uses TSL, or Test Script Language.  Win Runner Testing Modes Context Sensitive Context Sensitive mode records your actions on the application being tested in terms of the GUI objects you select (such as windows, lists, and buttons), while ignoring the physical location of the object on the screen. Every time you perform an operation on the application being tested, a TSL statement describing the object selected and the action performed is generated in the test script. As you record, Win Runner writes a unique description of each selected object to a GUI map. 
+The GUI map consists of files maintained separately from your test scripts. If the user interfaces of your application changes, you have to update only the GUI map, instead of hundreds of tests. This allows you to easily reuse your Context Sensitive test scripts on future versions of your application. 
+To run a test, you simply play back the test script. Win Runner emulates a user by moving the mouse pointer over your application, selecting objects, and entering keyboard input. 
+Win Runner reads the object descriptions in the GUI map and then searches in the application being tested for objects matching these descriptions. It can locate objects in a window even if their placement has changed. 
+Analog 
+ Analog mode records mouse clicks, keyboard input, and the exact x- and y-coordinates traveled by the mouse. When the test is run, Win Runner retraces the mouse tracks. Use Analog mode when exact mouse coordinates are important to your test, such as when testing a drawing application. 
+The Win Runner Testing Process Testing with Win Runner involves six main stages: 
+ 1. Create the GUI Map 
+The first stage is to create the GUI map so Win Runner can recognize the GUI objects in the application being tested. Use the Rapid Test Script wizard to review the user interface of your application and systematically add descriptions of every GUI object to the GUI map. 
+Alternatively, you can add descriptions of individual objects to the GUI map by clicking objects while recording a test. 
+2. Create Tests 
+Next is creation of test scripts by recording, programming, or a combination of both. While recording tests, insert checkpoints where we want to check the response of the application being tested. We can insert checkpoints that check GUI objects, bitmaps, and databases. During this process, Win Runner captures data and saves it as expected results—the expected response of the application being tested. 
+3. Debug Tests 
+Rrun tests in Debug mode to make sure they run smoothly. One can set breakpoints, monitor variables, and control how tests are run to identify and isolate defects. Test results are saved in the debug folder, which can be discarded once debugging is finished. 
+When Win Runner runs a test, it checks each script line for basic syntax errors, like incorrect syntax or missing elements in If, While, Switch, and For statements. We can use the Syntax Check options (Tools >Syntax Check) to check for these types of syntax errors before running your test. 
+4. Run Tests 
+Tests can be run in Verify mode to test the application. Each time Win Runner 
+Encounters a checkpoint in the test script, it compares the current data of the application being tested to the expected data captured earlier. If any mismatches are found, Win Runner captures them as actual results.
+5. View Results 
+Following each test run, Win Runner displays the results in a report. The report details all the major events that occurred during the run, such as checkpoints, error messages, system messages, or user messages. 
+If mismatches are detected at checkpoints during the test run, we can view the expected results and the actual results from the Test Results window. In cases of bitmap mismatches, one can also view a bitmap that displays only the difference between the expected and actual results. 
+We can view results in the standard Win Runner report view or in the Unified report view. The Win Runner report view displays the test results in a Windows-style viewer. The Unified report view displays the results in an HTML-style viewer (identical to the style used for Quick Test Professional test results). 
+6. Report Defects 
+If a test run fails due to a defect in the application being tested, one can report information about the defect directly from the Test Results window. 
+This information is sent via e-mail to the quality assurance manager, who tracks the defect until it is fixed. Using Win runner Window Before you begin creating tests, you should familiarize yourself with the Win Runner main window. 
+ 
+1.4.1. To start Win Runner: 
+Choose Programs > Win Runner > Win Runner on the Start menu. 
+The first time you start Win Runner, the Welcome to Win Runner window and the ―What‘s New in Win Runner‖ help open. From the Welcome window you can create a new test, open an existing test, or view as If you do not want this window to appear the next time you start Win Runner, clear the Show on Startup check box. To show the Welcome to Win Runner window upon startup from within Win Runner, choose Settings > General Options, click the Environment tab, and 
+select the Show Welcome screen check box. 
+1.4.2. The Main Win Runner Window 
+The main Win Runner window contains the following key elements: 
+ Win Runner title bar Menu bar, with drop-down menus of Win Runner commands 
+ Standard toolbar, with buttons of commands commonly used when running a test 
+ User toolbar, with commands commonly used while creating a test Status bar, with information on the current command, the line number of the insertion point and the name of the current results folder 
+The Standard toolbar provides easy access to frequently performed tasks, such as opening, executing, and saving tests, and viewing test results. 
+Standard Toolbar 
+The User toolbar displays the tools you frequently use to create test scripts. By default, the User toolbar is hidden. To display the User toolbar, choose Window > User Toolbar. When you create tests, you can minimize the Win Runner window and work exclusively from the toolbar. 
+The User toolbar is customizable. You choose to add or remove buttons using the Settings > Customize User Toolbar menu option. When you re-open Win Runner, the User toolbar appears as it was when you last closed it. 
+The commands on the Standard toolbar and the User toolbar are described in detail in subsequent lessons. 
+Note that you can also execute many commands using soft keys. Soft keys are keyboard shortcuts for carrying out menu commands. You can configure the soft key combinations for n overview of Win Runner in your default browser. Your keyboard using the Soft key Configuration utility in your Win Runner program group. Now that you are familiar with the main Win Runner window, take a few minutes to explore these window components before proceeding to the next lesson. 
+The Test Window 
+You create and run Win Runner tests in the test window. It contains the following 
+key elements:  Test window title bar, with the name of the open test Test script, with statements generated by recording and/or programming in TSL, Mercury Interactive Test Script Language  Execution arrow, which indicates the line of the test script being executed during a test run, or the line that will next run if you select the Run from arrow option  Insertion point, which indicates where you can insert or edit text  
+
+
+
+
+
+
